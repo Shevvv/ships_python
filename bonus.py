@@ -63,7 +63,7 @@ class Bonus(Sprite):
             
     def get_ship_bonus_image(self):
         """Create a ship image for the ship bonus."""
-        self.ship_image = pygame.image.load('images\ship.bmp')
+        self.ship_image = pygame.image.load('images/ship.bmp')
         self.ship_image_rect = self.ship_image.get_rect()
         self.ship_image_width = self.ship_image_rect.width
         self.ship_image_height = self.ship_image_rect.height
